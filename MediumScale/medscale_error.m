@@ -1,0 +1,25 @@
+load('temp_R1_01.mat','R1');
+    
+param_rhoR_star=logitcdf(R1(1,1));
+param_rhog_star=logitcdf(R1(1,2));
+param_rhomu_star=logitcdf(R1(1,3));
+param_sigma_gest_star = exp(R1(1,4));
+param_sigma_muest_star = exp(R1(1,5));
+param_sigma_etaest_star = exp(R1(1,6));
+param_sigma_zest_star = exp(R1(1,7));
+param_sigma_rest_star = exp(R1(1,8));
+param_gammag_star = R1(1,9);
+param_gammapi_star = R1(1,10);
+param_gammax_star = R1(1,11);
+param_gamma_star = logitcdf(R1(1,12));
+param_sigmaa_star = exp(R1(1,13));
+param_psip_star = 100*R1(1,14);
+param_psiw_star = 1000*R1(1,15);
+param_psiI_star = exp(R1(1,16));
+param_sigmaL_star = exp(R1(1,17));
+param_aest_star = logitcdf(R1(1,18));
+param_awest_star = logitcdf(R1(1,19));
+param_BETA_EST_star = exp(R1(1,20));
+param_Gzest_star = R1(1,21);
+param_pibar_est_star = R1(1,22);
+param_alpha_star = R1(1,23);
