@@ -1,0 +1,10 @@
+delete *.log
+delete *_dynamic.m
+delete *_static.m
+delete *_steady_state2.m
+delete *_results.mat
+delete *_set_auxiliary_variables.m
+delete *.eps
+delete *_pindx.mat
+delete *_params.mat
+delete *.jnl

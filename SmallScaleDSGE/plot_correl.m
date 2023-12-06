@@ -1,0 +1,13 @@
+load('PMMH_SmallScale_MeaError_prop1_N250_NIASRA_PRATITI.mat');
+subplot(3,4,1);plot(Post.piA);title('\pi^A','FontSize',14);
+subplot(3,4,2);plot(Post.tau);title('\tau','FontSize',14);
+subplot(3,4,3);plot(Post.psi1);title('\psi_1','FontSize',14);
+subplot(3,4,4);plot(Post.psi2);title('\psi_2','FontSize',14);
+subplot(3,4,5);plot(Post.rhoR);title('\rho_R','FontSize',14);
+subplot(3,4,6);plot(Post.rhog);title('\rho_g','FontSize',14);
+subplot(3,4,7);plot(Post.rhoz);title('\rho_z','FontSize',14);
+subplot(3,4,8);plot(Post.rA);title('r^A','FontSize',14);
+subplot(3,4,9);plot(Post.gammaQ);title('\gamma^Q','FontSize',14);
+subplot(3,4,10);plot(Post.sigma_r);title('\sigma_r','FontSize',14);
+subplot(3,4,11);plot(Post.sigma_g);title('\sigma_g','FontSize',14);
+subplot(3,4,12);plot(Post.sigma_z);title('\sigma_z','FontSize',14);
