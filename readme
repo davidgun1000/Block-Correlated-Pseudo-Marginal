@@ -1,0 +1,10 @@
+This MATLAB software implements the multiple PMMH methods from the paper "The Block-Correlated Pseudo Marginal Sampler for State Space Models".
+There are four examples in the model.
+1) Linear Gaussian State Space Model
+2) Multivariate stochastic volatility in the mean model
+3) Small Scale DSGE model
+4) Medium Scale DSGE model
+The examples are organised in separate folders.
+Each folder has a folder ("results") containing all the results for that example. 
+For the DSGE examples, you need to install dynare from https://www.dynare.org/
+I use dynare version 4.5.7.
