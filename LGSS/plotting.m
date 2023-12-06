@@ -1,0 +1,8 @@
+scatter(lik_PF,lik_PF_alt1)
+xlabel('Approach 2','FontSize',20)
+ylabel('Approach 1','FontSize',20)
+set(gca,'FontSize',20)
+scatter(lik_PF_alt2,lik_PF_alt1)
+xlabel('Approach 3','FontSize',20)
+ylabel('Approach 1','FontSize',20)
+set(gca,'FontSize',20)
