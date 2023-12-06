@@ -1,0 +1,6 @@
+load('CDKF_SmallScale_HS.mat');
+theta=[log(Post.tau),log(Post.psi1),log(Post.psi2),logit_inverse(Post.rhoR),...
+           logit_inverse(Post.rhog),logit_inverse(Post.rhoz),log(Post.sigma_r),log(Post.sigma_g),log(Post.sigma_z),...
+           log(Post.rA),log(Post.piA),Post.gammaQ];
+covmat_theta=cov(theta);
+save('covmat.mat','covmat_theta');
